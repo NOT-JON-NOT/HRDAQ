@@ -2,26 +2,26 @@
 
 ## Table of Contents
 
-- 1. [Introduction](#1-introduction)  
-- 2. [Features](#2-features)
-- 3. [Construction](#3-construction)
-  - 3.1. [External Hardware](#31-external-hardware)
-  - 3.2. [Required Software/Libraries](#32-required-softwarelibraries)
-  - 3.3. [Custom Printed Circuit Boards](#33-custom-printed-circuit-boards)
-      - 3.3.1. [Custom Printed Circuit Boards Design](#331-custom-printed-circuit-boards-design)
-      - 3.3.2. [Custom Printed Circuit Boards Manufacturing](#332-custom-printed-circuit-boards-manufacturing)
-  - 3.4. [Custom 3D-Printed Enclosure](#34-custom-3d-printed-enclosure)
-      - 3.4.1. [Custom 3D-Printed Enclosure Design](#341-custom-3d-printed-enclosure-design)
-      - 3.4.2. [Custom 3D-Printed Enclosure Manufacturing](#342-custom-3d-printed-enclosure-manufacturing)
-- 4. [Setup](#4-setup)
-  - 4.1. [Software Setup](#41-software-setup)
-  - 4.2. [PCB Pinouts](#42-pcb-pinouts)
-  - 4.3. [Hardware Setup](#43-hardware-setup)
-- 5. [Usage](#5-usage)
-- 6. [Notes](#6-notes)
-  - 6.1. [Hardware Notes](#61-hardware-notes)
-  - 6.2. [Software Notes](#62-software-notes)
-- 7. [Datasheets & Links](#7-datasheets--links)
+1. [Introduction](#1-introduction)  
+2. [Features](#2-features)
+3. [Construction](#3-construction)
+- 3.1. [External Hardware](#31-external-hardware)
+- 3.2. [Required Software/Libraries](#32-required-softwarelibraries)
+- 3.3. [Custom Printed Circuit Boards](#33-custom-printed-circuit-boards)
+    - 3.3.1. [Custom Printed Circuit Boards Design](#331-custom-printed-circuit-boards-design)
+    - 3.3.2. [Custom Printed Circuit Boards Manufacturing](#332-custom-printed-circuit-boards-manufacturing)
+- 3.4. [Custom 3D-Printed Enclosure](#34-custom-3d-printed-enclosure)
+    - 3.4.1. [Custom 3D-Printed Enclosure Design](#341-custom-3d-printed-enclosure-design)
+    - 3.4.2. [Custom 3D-Printed Enclosure Manufacturing](#342-custom-3d-printed-enclosure-manufacturing)
+4. [Setup](#4-setup)
+- 4.1. [Software Setup](#41-software-setup)
+- 4.2. [PCB Pinouts](#42-pcb-pinouts)
+- 4.3. [Hardware Setup](#43-hardware-setup)
+5. [Usage](#5-usage)
+6. [Notes](#6-notes)
+- 6.1. [Hardware Notes](#61-hardware-notes)
+- 6.2. [Software Notes](#62-software-notes)
+7. [Datasheets & Links](#7-datasheets--links)
 
 ## 1. Introduction
 Hartford Racing (HR) is a student-led Formula SAE (FSAE) team tasked with designing, fabricating, testing, and racing a Formula-style racecar each year to compete at an international competition against universities from around the world. 
@@ -97,14 +97,14 @@ If you are redesigning the HRDAQ, you should create room definitions for the BGA
 
 Photos of HRDAQ, RPM LEDs, and Status LEDs PCBs:
 
-![HRDAQ_PCB_IMG_1](/HRDAQ_IMGs/HRDAQ_PCB_IMG_1.png)
-![HRDAQ_PCB_IMG_2](/HRDAQ_IMGs/HRDAQ_PCB_IMG_2.png)
-![HRDAQ_PCB_IMG_3](/HRDAQ_IMGs/HRDAQ_PCB_IMG_3.png)
-![HRDAQ_PCB_IMG_4](/HRDAQ_IMGs/HRDAQ_PCB_IMG_4.png)
-![HRDAQ_RPM_LEDs_PCB_IMG_1](/HRDAQ_IMGs/HRDAQ_RPM_LEDs_PCB_IMG_1.png)
-![HRDAQ_RPM_LEDs_PCB_IMG_2](/HRDAQ_IMGs/HRDAQ_RPM_LEDs_PCB_IMG_2.png)
-![HRDAQ_Status_LEDs_PCB_IMG_1](/HRDAQ_IMGs/HRDAQ_Status_LEDs_PCB_IMG_1.png)
-![HRDAQ_Status_LEDs_PCB_IMG_2](/HRDAQ_IMGs/HRDAQ_Status_LEDs_PCB_IMG_2.png)
+![HRDAQ_PCB_IMG_1](/HRDAQ_IMGs/HRDAQ_PCB_IMG_1.PNG)
+![HRDAQ_PCB_IMG_2](/HRDAQ_IMGs/HRDAQ_PCB_IMG_2.PNG)
+![HRDAQ_PCB_IMG_3](/HRDAQ_IMGs/HRDAQ_PCB_IMG_3.PNG)
+![HRDAQ_PCB_IMG_4](/HRDAQ_IMGs/HRDAQ_PCB_IMG_4.PNG)
+![HRDAQ_RPM_LEDs_PCB_IMG_1](/HRDAQ_IMGs/HRDAQ_RPM_LEDs_PCB_IMG_1.PNG)
+![HRDAQ_RPM_LEDs_PCB_IMG_2](/HRDAQ_IMGs/HRDAQ_RPM_LEDs_PCB_IMG_2.PNG)
+![HRDAQ_Status_LEDs_PCB_IMG_1](/HRDAQ_IMGs/HRDAQ_Status_LEDs_PCB_IMG_1.PNG)
+![HRDAQ_Status_LEDs_PCB_IMG_2](/HRDAQ_IMGs/HRDAQ_Status_LEDs_PCB_IMG_2.PNG)
 
 Most footprints and symbols are custom. Please contact Hartford Racing, specifically Jon Ho, for related questions.
 
