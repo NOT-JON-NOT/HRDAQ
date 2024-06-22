@@ -40,7 +40,7 @@ This custom data acquisition system (HRDAQ) and driver feedback system was devel
 - RPM lights
 - Status lights (battery level status, fuel level status, neutral status, coolant up to temp status, coolant outside temp status)
 - SD-card functionality 
-- Waterproof casing, small footprint
+- Small footprint enclosure
 - 5V fused input compatibility
 - 21V digital input compatibility
 - 10V analog input compatibility (reserved)
@@ -112,14 +112,18 @@ Most footprints and symbols are custom. Please contact Hartford Racing, specific
 
 Send the included Gerber files within this repository to your preferred PCB manufacturer. Make sure that your PCB manufacturer is capable of manufacturing 0.1mm minimum trace width, 0.25mm minimum drill size, 6-layer PCB, and BGA related manufacturing. 
 
-(Pending PCBWay response for specifics)
+Additionally, send the Teensy 4.1 [bootloader](https://www.pjrc.com/store/ic_mkl02_t4.html) to the manufacturer. Without this IC, the board will fail to initialize. 
+
+*An error was discovered by the manufacturer related to the RP-SMA connector. Replace the initial RP-SMA connector with another that has a 1.6mm gap
 
 ## 3.4 Custom 3D-Printed Enclosure
 ### 3.4.1. Custom 3D-Printed Enclosure Design
 
 3D-Printed enclosure is designed to house HRDAQ. The enclosure is designed to allow access to the SD-card port, micro-USB port, RF port, and DSUB connector. It also allows HRDAQ to be secured with M3 screws and has approximately 3mm of clearance between edge of PCB and enclose wall. The enclosure contains removable top. 
 
-Pictures to be posted once 3D-printed, validated, and finalized.
+Photos of HRDAQ in 3D-printed enclosure:
+![HRDAQ_PHYSICAL_1](/HRDAQ_IMGs/HRDAQ_PHYSICAL_1.jpg)
+![HRDAQ_PHYSICAL_2](/HRDAQ_IMGs/HRDAQ_PHYSICAL_2.jpg)
 
 ### 3.4.2. Custom 3D-Printed Enclosure Manufacturing
 Refer to the following table for 3D-print settings with your preferred slicer & 3D-printer:
@@ -144,7 +148,7 @@ The following steps were applied to setup the HRDAQ software:
 4. Upload "HRDAQ_EEPROM_INIT" to initialize the naming of each csv file in the SD-card
 5. Upload "HRDAQ_MAIN"
 
-(Wireless GUI currently being developed, pending instructions)
+(Wireless GUI currently under refinement, pending instructions)
 
 ## 4.2. PCB Pinouts
 Refer to the following table for the HRDAQ pinout:
@@ -192,13 +196,11 @@ The following steps were applied to setup the HRDAQ hardware:
 3. Construct the external DSUB connector using standard crimping tools. Ensure that wiring is long enough to reach any sensor position. Connect the DSUB to HRDAQ. 
 4. Connect status and RPM LEDs PCBs, chosen sensors, ECU CAN lines, and 5V input according to the pinout. Sensors on the HR24 (Hartford Racing 2024 racecar) use 12V or 3.3V supply. Ensure that sensors are secure.
 
-(Pending photos once manufacturing phase has been completed)
-
 ## 5. Usage
 
 Once you conduct tests, the HRDAQ should collect data and record it onto the SD-card and should be taken out to analyze data. The SD-card should reinitialize another dataset recording once the wheel speed identified through CAN becomes 0 (the racecar stops).
 
-(Wireless GUI currently being developed, pending instructions)
+(Wireless GUI currently under refinement, pending instructions)
 
 ## 6. Notes
 ## 6.1. Hardware Notes
