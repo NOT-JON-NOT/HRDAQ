@@ -216,6 +216,7 @@ Once you conduct tests, the HRDAQ should collect data and record it onto the SD-
   - Equation 2: Vr = (Vout/Vin)strained - (Vout/Vin)unstrained, (Vout/Vin)unstrained = 0 ideally
   - Equation 3: Strain = -4Vr/(Gauge_Factor*(1+2*Vr))
   - Gauge factor is typically supplied by the manufacturer on the packaging
+- HRDAQ logs 30 Hz at default. This can be adjusted through software
 - DAQ = refers to data acquisition system as a whole
 - MB = all related to flexCAN mailboxes
 - PE & PE3 = all related to Performace Electronics
